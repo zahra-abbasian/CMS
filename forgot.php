@@ -49,7 +49,7 @@ require './vendor/autoload.php';
                     $mail->CharSet = 'UTF-8';
 
 
-                    $mail->setFrom('edwin@codingfaculty.com', 'Edwin Diaz');
+                    $mail->setFrom('za.abbasian@gmail.com', 'Zahra Abbasian');
                     $mail->addAddress($email);
 
                     $mail->Subject = 'This is a test email';
